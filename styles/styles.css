@@ -125,36 +125,41 @@ button {
 
 .letter11 {
   animation-name: vertical-flip;
-  animation-duration: 1s;
+  animation-duration: 750ms;
   background-color: #3a3a3c;
+  animation-fill-mode: both;
 }
 
 .letter12 {
   animation-name: vertical-flip;
-  animation-duration: 1s;
-  animation-delay: 100ms;
+  animation-duration: 750ms;
+  animation-delay: 200ms;
   background-color: #538d4e;
+  animation-fill-mode: both;
 }
 
 .letter13 {
   animation-name: vertical-flip;
-  animation-duration: 1s;
-  animation-delay: 200ms;
+  animation-duration: 750ms;
+  animation-delay: 400ms;
   background-color: #538d4e;
+  animation-fill-mode: both;
 }
 
 .letter14 {
   animation-name: vertical-flip;
-  animation-duration: 1s;
-  animation-delay: 300ms;
+  animation-duration: 750ms;
+  animation-delay: 600ms;
   background-color: #3a3a3c;
+  animation-fill-mode: both;
 }
 
 .letter15 {
   animation-name: vertical-flip;
-  animation-duration: 1s;
-  animation-delay: 400ms;
+  animation-duration: 750ms;
+  animation-delay: 800ms;
   background-color: #b59f3b;
+  animation-fill-mode: both;
 }
 
 .absent {
@@ -176,6 +181,8 @@ button {
     transform: scaleY(1);
   }
   50% {
+    background-color: #121213;
+    border: 2px solid #3a3a3c;
     transform: scaleY(0);
   }
   to {
